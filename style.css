@@ -1,0 +1,64 @@
+ /* Page Styling */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+
+      /* Center Form */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Login Box */
+    .login-container {
+      background-color: white;
+      padding: 30px;
+      width: 320px;
+      border-radius: 10px;
+      border: 2px solid #ddd;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Heading */
+    .login-container h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* Labels */
+    label {
+      font-weight: bold;
+      color: #555;
+    }
+
+    /* Input Boxes */
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    /* Login Button */
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
